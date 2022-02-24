@@ -40,11 +40,7 @@ reg_btn.click()
 # ---------------------------------------------------------------------------- #
 #                  6. Check if element "Logout" is on the page                 #
 # ---------------------------------------------------------------------------- #
-# >-------------------------- Check "Logout" by text ------------------------- #
 print("------- 6 Step -------")
-logout = WebDriverWait(driver, 5).until(
-    EC.text_to_be_present_in_element((By.XPATH, "//a[text()='Logout']"), "Logout"))
-print("Text \"Logout\" presents on the page:", logout)
 # >------------------------ Check "Logout" by element ------------------------ #
 logout = WebDriverWait(driver, 5).until(
     EC.presence_of_element_located((By.XPATH, "//a[text()='Logout']")))
