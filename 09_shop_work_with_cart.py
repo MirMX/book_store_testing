@@ -2,9 +2,7 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-
+from selenium.webdriver.support.select import Select
 # ---------------------------------------------------------------------------- #
 #                   *   Loading Chrome Profile for testing   *                 #
 # ---------------------------------------------------------------------------- #
@@ -19,23 +17,11 @@ driver.maximize_window()
 driver.get("http://practice.automationtesting.in")
 driver.implicitly_wait(5)
 # ---------------------------------------------------------------------------- #
-#                             2. Go to "My Account"                            #
+#                             2. Click "Shop" Link                             #
 # ---------------------------------------------------------------------------- #
-driver.find_element(By.LINK_TEXT, "My Account").click()
+driver.find_element(By.LINK_TEXT, "Shop").click()
 # ---------------------------------------------------------------------------- #
-#                                3. Enter email                                #
+#                             3. Scroll 300 pixels                             #
 # ---------------------------------------------------------------------------- #
-reg_email = driver.find_element(By.ID, "reg_email")
-reg_email.send_keys("book@inpwa.com")
-# ---------------------------------------------------------------------------- #
-#                               4. Enter password                              #
-# ---------------------------------------------------------------------------- #
-reg_pass = driver.find_element(By.ID, "reg_password")
-reg_pass.send_keys("S99gn5X")
-# ---------------------------------------------------------------------------- #
-#                          5. Click "Register" button                          #
-# ---------------------------------------------------------------------------- #
-reg_btn = driver.find_element(By.XPATH, "//input[@name='register']")
-reg_btn.click()
-# ---------------------------------------------------------------------------- #
-driver.quit()
+driver.execute_script("window.scrollBy(0, 300);")
+time.sleep(3)

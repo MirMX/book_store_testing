@@ -18,7 +18,7 @@ driver.maximize_window()
 # ---------------------------------------------------------------------------- #
 #                                 1. Open Page                                 #
 # ---------------------------------------------------------------------------- #
-driver.get("http://practice.automationtesting.in/")
+driver.get("http://practice.automationtesting.in")
 driver.implicitly_wait(5)
 # ---------------------------------------------------------------------------- #
 #                             2. Login into account                            #
