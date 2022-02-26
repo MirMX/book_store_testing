@@ -3,8 +3,8 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC_click
-from selenium.webdriver.support.select import Select
+from selenium.webdriver.support import expected_conditions as EC
+
 # ---------------------------------------------------------------------------- #
 #                   *   Loading Chrome Profile for testing   *                 #
 # ---------------------------------------------------------------------------- #
@@ -63,10 +63,10 @@ assert new_price.text == new_price_exp
 #                     Book Cover Image (Explicit  Waiting)                     #
 # ---------------------------------------------------------------------------- #
 wait = WebDriverWait(driver, 10).until
-EC_click = EC_click.element_to_be_clickable
+ec_click = EC.element_to_be_clickable
 # >---------------------- 7. Click on Book cover image ----------------------- #
-wait(EC_click((By.CLASS_NAME, "wp-post-image"))).click()
+wait(ec_click((By.CLASS_NAME, "wp-post-image"))).click()
 # >---------------------- 8. Close the Book cover image ---------------------- #
-wait(EC_click((By.CLASS_NAME, "pp_close"))).click()
+wait(ec_click((By.CLASS_NAME, "pp_close"))).click()
 # ---------------------------------------------------------------------------- #
 driver.quit()
