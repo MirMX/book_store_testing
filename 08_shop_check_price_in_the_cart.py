@@ -50,7 +50,7 @@ assert (cart_amount.text == cart_amount_exp)
 driver.find_element(By.XPATH, "//a[@class='wpmenucart-contents']").click()
 # ---------------------------------------------------------------------------- #
 # >---------------------------- Declare Variables ---------------------------- #
-wait = WebDriverWait(driver, 40).until_not
+wait = WebDriverWait(driver, 10).until_not
 ec_invisible = EC.invisibility_of_element_located
 # ---------------------------------------------------------------------------- #
 #              6. Check if Subtotal displays in the Basket Totals              #
