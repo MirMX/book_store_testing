@@ -49,19 +49,26 @@ assert (cart_amount.text == cart_amount_exp)
 # ---------------------------------------------------------------------------- #
 driver.find_element(By.XPATH, "//a[@class='wpmenucart-contents']").click()
 # ---------------------------------------------------------------------------- #
+# >---------------------------- Declare Variables ---------------------------- #
 wait = WebDriverWait(driver, 40).until_not
 ec_invisible = EC.invisibility_of_element_located
-
+# ---------------------------------------------------------------------------- #
+#              6. Check if Subtotal displays in the Basket Totals              #
+# ---------------------------------------------------------------------------- #
+subtotal_select = driver.find_element(
+    By.XPATH, "//td[@data-title='Subtotal']/span")
 subtotal = wait(ec_invisible((By.XPATH, "//td[@data-title='Subtotal']/span")))
-
+print("5 Step - Basket Totals"
+      "\n         Subtotal is invisible:", subtotal,
+      "\n         Subtotal is", subtotal_select.text)
+# ---------------------------------------------------------------------------- #
+#              7. Check if Subtotal displays in the Basket Totals              #
+# ---------------------------------------------------------------------------- #
+total_select = driver.find_element(
+    By.XPATH, "//td[@data-title='Total']/strong/span")
 total = wait(ec_invisible((By.XPATH, "//td[@data-title='Total']/strong/span")))
-
-print("Subtotal is invisible:", subtotal)
-print("Total is invisible:", total)
-
-
+print("\n6 Step - Basket Totals"
+      "\n         Total is invisible:", total,
+      "\n         Total is", total_select.text)
 # ---------------------------------------------------------------------------- #
-
-# ---------------------------------------------------------------------------- #
-time.sleep(3)
 driver.quit()
