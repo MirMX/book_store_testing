@@ -14,26 +14,26 @@ There are three task sections: __Home__ - one task, __Registration & Login__ - t
 - <details>
   <summary><b>Home</b></summary>
   
-  :one: [Adding comment](/01_home_add_comment.py "Open File in New Tab (ctrl + click)")&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[:scroll: description...](#1-home-добавление-комментария "Go to Description of the task")<br>
+  1️⃣ [Adding comment](/01_home_add_comment.py "Open File in New Tab (ctrl + click)")&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[:scroll: description...](#1-home-добавление-комментария "Go to Description of the task")<br>
   </details> 
 
 - <details>
   <summary><b>Registration & Login</b></summary>
   
-   :one: [Account registration](/02_registration_login_account_registration.py)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[:scroll: description...](#2-registration_login-регистрация-аккаунта "Go to Description of the task")<br>
-   :two: [Login into account](/03_registration_login_login_into_account.py)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[:scroll: description...](#3-registration_login-логин-в-систему "Go to Description of the task")
+   2️⃣ [Account registration](/02_registration_login_account_registration.py)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[:scroll: description...](#2-registration_login-регистрация-аккаунта "Go to Description of the task")<br>
+   3️⃣ [Login into account](/03_registration_login_login_into_account.py)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[:scroll: description...](#3-registration_login-логин-в-систему "Go to Description of the task")
   </details> 
 
 - <details>
   <summary><b>Shop</b></summary>
   
-   :one: [Display the product page](/04_shop_display_product_page.py)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[:scroll: description...](#4-shop-отображение-страницы-товара "Go to Description of the task")<br>
-   :two: [Product quantity in category](/05_shop_products_quantity_in_category.py)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[:scroll: description...](#5-shop-количество-товаров-в-категории "Go to Description of the task")<br>
-   :three: [Product sorting](/06_shop_product_sorting.py)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[:scroll: description...](#6-shop-сортировка-товаров "Go to Description of the task")<br>
-   :four: [Display product discount](/07_shop_display_product_discount.py)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[:scroll: description...](#7-shop-отображение-скидка-товара "Go to Description of the task")<br>
-   :five: [Checking price in the cart](/08_shop_check_price_in_the_cart.py)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[:scroll: description...](#8-shop-проверка-цены-в-корзине "Go to Description of the task")<br>
-   :six: [Work with the cart](/09_shop_work_with_cart.py)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[:scroll: description...](#9-shop-работа-в-корзине "Go to Description of the task")<br>
-   :seven: [Buying the book](/10_shop_buy_the_book.py)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[:scroll: description...](#10-shop-покупка-товара "Go to Description of the task")<br>
+   4️⃣ [Display the product page](/04_shop_display_product_page.py)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[:scroll: description...](#4-shop-отображение-страницы-товара "Go to Description of the task")<br>
+   5️⃣ [Product quantity in category](/05_shop_products_quantity_in_category.py)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[:scroll: description...](#5-shop-количество-товаров-в-категории "Go to Description of the task")<br>
+   6️⃣ [Product sorting](/06_shop_product_sorting.py)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[:scroll: description...](#6-shop-сортировка-товаров "Go to Description of the task")<br>
+   7️⃣ [Display product discount](/07_shop_display_product_discount.py)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[:scroll: description...](#7-shop-отображение-скидка-товара "Go to Description of the task")<br>
+   8️⃣ [Checking price in the cart](/08_shop_check_price_in_the_cart.py)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[:scroll: description...](#8-shop-проверка-цены-в-корзине "Go to Description of the task")<br>
+   9️⃣ [Work with the cart](/09_shop_work_with_cart.py)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[:scroll: description...](#9-shop-работа-в-корзине "Go to Description of the task")<br>
+   🔟 [Buying the book](/10_shop_buy_the_book.py)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[:scroll: description...](#10-shop-покупка-товара "Go to Description of the task")<br>
   </details> 
 <br>
 
