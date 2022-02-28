@@ -1,7 +1,14 @@
-# HomeWork - Lesson 4 (Automation)
+<img src="https://i.imgur.com/3Vg0Jfw.png" style="display: block; margin: 0 auto" width="80"/>
+
+# <img src="https://i.imgur.com/Eqeu4ao.png"  width="70"/> HomeWork - Lesson 4 (Automation)
+
+
+
+
+
 
 <details>
-<summary>Text</summary>
+<summary>Tasks</summary>
 1. point
 </details> 
 <details>
