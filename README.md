@@ -15,7 +15,7 @@ There are three task sections: __Home__ - one task, __Registration & Login__ - t
   <summary><b>Home</b></summary>
 
     - <details>
-      <summary><b>1. Home: добавление комментария</b></summary> 
+      <summary>1. <b>Home:</b> добавление комментария</summary> 
 
         1️⃣ [Adding comment](/01_home_add_comment.py "Open File in New Tab (ctrl + click)")<br>
 
@@ -35,7 +35,7 @@ There are three task sections: __Home__ - one task, __Registration & Login__ - t
   <summary><b>Registration & Login</b></summary>
   
     - <details>
-      <summary>2. <b>Registration_login: регистрация аккаунта</b></summary>
+      <summary>1. <b>Registration_login:</b> регистрация аккаунта</summary>
 
         2️⃣ [Account registration](/02_registration_login_account_registration.py)<br>
 
@@ -49,7 +49,7 @@ There are three task sections: __Home__ - one task, __Registration & Login__ - t
       </details>
 
     - <details>
-      <summary>3. <b>Registration_login: логин в систему</b></summary> 
+      <summary>2. <b>Registration_login:</b> логин в систему</summary> 
 
         3️⃣ [Login into account](/03_registration_login_login_into_account.py)
 
@@ -66,7 +66,7 @@ There are three task sections: __Home__ - one task, __Registration & Login__ - t
   <summary><b>Shop</b></summary>
   
     - <details>
-      <summary>4. <b>Shop: отображение страницы товара</b></summary>
+      <summary>1. <b>Shop:</b> отображение страницы товара</summary>
         
         4️⃣ [Display the product page](/04_shop_display_product_page.py)<br>
 
@@ -77,7 +77,7 @@ There are three task sections: __Home__ - one task, __Registration & Login__ - t
             5. Добавьте тест, что заголовок книги назвается: "HTML5 Forms"
       </details>
     - <details>  
-      <summary>5. <b>Shop: количество товаров в категории</b></summary> 
+      <summary>2. <b>Shop:</b> количество товаров в категории</summary> 
 
         5️⃣ [Product quantity in category](/05_shop_products_quantity_in_category.py)<br>
         
@@ -88,7 +88,7 @@ There are three task sections: __Home__ - one task, __Registration & Login__ - t
             5. Добавьте тест, что отображается три товара
       </details>
     - <details>
-      <summary>6. <b>Shop: сортировка товаров</b></summary>
+      <summary>3. <b>Shop:</b> сортировка товаров</summary>
 
         6️⃣ [Product sorting](/06_shop_product_sorting.py)<br>
 
@@ -104,7 +104,7 @@ There are three task sections: __Home__ - one task, __Registration & Login__ - t
                 - Используйте проверку по value
       </details>
     - <details>  
-      <summary>7. <b>Shop: отображение, скидка товара</b></summary> 
+      <summary>4. <b>Shop:</b> отображение, скидка товара</summary> 
 
         7️⃣ [Display product discount](/07_shop_display_product_discount.py)<br>
 
@@ -120,7 +120,7 @@ There are three task sections: __Home__ - one task, __Registration & Login__ - t
       </details>
 
     - <details>
-      <summary>8. <b>Shop: проверка цены в корзине</b>></summary>
+      <summary>5. <b>Shop:</b> проверка цены в корзине</summary>
 
         8️⃣ [Checking price in the cart](/08_shop_check_price_in_the_cart.py)<br>
 
@@ -137,7 +137,7 @@ There are three task sections: __Home__ - one task, __Registration & Login__ - t
             # если все книги будут out of stock - тогда пропустите это и следующие два задания
       </details>
     - <details>  
-      <summary>9. <b>Shop: работа в корзине</b></summary> 
+      <summary>6. <b>Shop:</b> работа в корзине</summary> 
 
         9️⃣ [Work with the cart](/09_shop_work_with_cart.py)<br>
 
@@ -163,7 +163,7 @@ There are three task sections: __Home__ - one task, __Registration & Login__ - t
             # если эти книги будут out of stock - тогда вместо них добавьте книгу HTML5 Forms и любую доступную книгу по JS и выполните тесты по аналогии
       </details>
     - <details>
-      <summary>10. <b>Shop: покупка товара</b></summary>
+      <summary>7. <b>Shop:</b> покупка товара</summary>
 
         🔟 [Buying the book](/10_shop_buy_the_book.py)<br>
 
@@ -194,6 +194,4 @@ There are three task sections: __Home__ - one task, __Registration & Login__ - t
     <img align="left" alt="MirMX's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=MirMX&exclude_repo=MirMX.github.io&show_icons=true&hide_border=false&title_color=ff652f&icon_color=FFE400&bg_color=09131B&text_color=ffffff&border_color=0c1a25" />
 </details><br>
   
-<div align ="center" class="footer">
- <b> © 2022 MirMX</b>
-</div>
+###### <p align = "center">:copyright: 2022 MirMX<p>
