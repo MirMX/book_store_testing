@@ -4,11 +4,12 @@
 
 # <p align="center">[<img src="https://i.imgur.com/G7LQsqu.png"  height="25" />](https://be-tester.ru/) HomeWork - Lesson 4 (Automation) :fire:<p>
 
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python%20&%20Magic-1f425f.svg)](https://www.python.org/)
+[![Generic badge](https://img.shields.io/badge/Total%20code--coverage-100%25-green)](#)
+  
 ### Description
 This Homework includes different Tasks which requires some knowlege and skills of Python.<br>
 There are three task sections: __Home__ - one task, __Registration & Login__ - two tasks, __Shop__ - seven tasks.<br>
-
-  
  
   ### Task Sections and Specifications:
 - <details>
@@ -17,7 +18,7 @@ There are three task sections: __Home__ - one task, __Registration & Login__ - t
     - <details>
       <summary>1. <b>Home:</b> добавление комментария</summary> 
 
-        1️⃣ [Adding comment](/01_home_add_comment.py "Open File in New Tab (ctrl + click)")<br>
+        1️⃣ [Adding comment](/01_home_add_comment.py "Open File in New Tab (ctrl + click)")&nbsp;&nbsp;&nbsp;&nbsp; [![Generic badge](https://img.shields.io/badge/code--coverage-100%25-green)](#)<br>
 
             1. Откройте http://practice.automationtesting.in/
             2. Проскролльте страницу вниз на 600 пикселей
@@ -37,7 +38,7 @@ There are three task sections: __Home__ - one task, __Registration & Login__ - t
     - <details>
       <summary>1. <b>Registration_login:</b> регистрация аккаунта</summary>
 
-        2️⃣ [Account registration](/02_registration_login_account_registration.py)<br>
+        2️⃣ [Account registration](/02_registration_login_account_registration.py)&nbsp;&nbsp;&nbsp;&nbsp; [![Generic badge](https://img.shields.io/badge/code--coverage-100%25-green)](#)<br>
 
             1. Откройте http://practice.automationtesting.in/
             2. Нажмите на вкладку "My Account Menu"
@@ -51,7 +52,7 @@ There are three task sections: __Home__ - one task, __Registration & Login__ - t
     - <details>
       <summary>2. <b>Registration_login:</b> логин в систему</summary> 
 
-        3️⃣ [Login into account](/03_registration_login_login_into_account.py)
+        3️⃣ [Login into account](/03_registration_login_login_into_account.py)&nbsp;&nbsp;&nbsp;&nbsp; [![Generic badge](https://img.shields.io/badge/code--coverage-100%25-green)](#)
 
             1. Откройте http://practice.automationtesting.in/
             2. Нажмите на вкладку "My Account Menu"
@@ -68,7 +69,7 @@ There are three task sections: __Home__ - one task, __Registration & Login__ - t
     - <details>
       <summary>1. <b>Shop:</b> отображение страницы товара</summary>
         
-        4️⃣ [Display the product page](/04_shop_display_product_page.py)<br>
+        4️⃣ [Display the product page](/04_shop_display_product_page.py)&nbsp;&nbsp;&nbsp;&nbsp; [![Generic badge](https://img.shields.io/badge/code--coverage-100%25-green)](#)<br>
 
             1. Откройте http://practice.automationtesting.in/
             2. Залогиньтесь
@@ -79,7 +80,7 @@ There are three task sections: __Home__ - one task, __Registration & Login__ - t
     - <details>  
       <summary>2. <b>Shop:</b> количество товаров в категории</summary> 
 
-        5️⃣ [Product quantity in category](/05_shop_products_quantity_in_category.py)<br>
+        5️⃣ [Product quantity in category](/05_shop_products_quantity_in_category.py)&nbsp;&nbsp;&nbsp;&nbsp; [![Generic badge](https://img.shields.io/badge/code--coverage-100%25-green)](#)<br>
         
             1. Откройте http://practice.automationtesting.in/
             2. Залогиньтесь
@@ -90,7 +91,7 @@ There are three task sections: __Home__ - one task, __Registration & Login__ - t
     - <details>
       <summary>3. <b>Shop:</b> сортировка товаров</summary>
 
-        6️⃣ [Product sorting](/06_shop_product_sorting.py)<br>
+        6️⃣ [Product sorting](/06_shop_product_sorting.py)&nbsp;&nbsp;&nbsp;&nbsp; [![Generic badge](https://img.shields.io/badge/code--coverage-100%25-green)](#)<br>
 
             1. Откройте http://practice.automationtesting.in/
             2. Залогиньтесь
@@ -106,7 +107,7 @@ There are three task sections: __Home__ - one task, __Registration & Login__ - t
     - <details>  
       <summary>4. <b>Shop:</b> отображение, скидка товара</summary> 
 
-        7️⃣ [Display product discount](/07_shop_display_product_discount.py)<br>
+        7️⃣ [Display product discount](/07_shop_display_product_discount.py)&nbsp;&nbsp;&nbsp;&nbsp; [![Generic badge](https://img.shields.io/badge/code--coverage-100%25-green)](#)<br>
 
             1. Откройте http://practice.automationtesting.in/
             2. Залогиньтесь
@@ -122,7 +123,7 @@ There are three task sections: __Home__ - one task, __Registration & Login__ - t
     - <details>
       <summary>5. <b>Shop:</b> проверка цены в корзине</summary>
 
-        8️⃣ [Checking price in the cart](/08_shop_check_price_in_the_cart.py)<br>
+        8️⃣ [Checking price in the cart](/08_shop_check_price_in_the_cart.py)&nbsp;&nbsp;&nbsp;&nbsp; [![Generic badge](https://img.shields.io/badge/code--coverage-100%25-green)](#)<br>
 
             1. Откройте http://practice.automationtesting.in/ # в этом тесте логиниться не нужно
             2. Нажмите на вкладку "Shop"
@@ -139,7 +140,7 @@ There are three task sections: __Home__ - one task, __Registration & Login__ - t
     - <details>  
       <summary>6. <b>Shop:</b> работа в корзине</summary> 
 
-        9️⃣ [Work with the cart](/09_shop_work_with_cart.py)<br>
+        9️⃣ [Work with the cart](/09_shop_work_with_cart.py)&nbsp;&nbsp;&nbsp;&nbsp; [![Generic badge](https://img.shields.io/badge/code--coverage-100%25-green)](#)<br>
 
         Иногда, даже явные ожидания не помогают избежать ошибки при нахождении элемента, этот сценарий один из таких, используйте time.sleep()
 
@@ -165,7 +166,7 @@ There are three task sections: __Home__ - one task, __Registration & Login__ - t
     - <details>
       <summary>7. <b>Shop:</b> покупка товара</summary>
 
-        🔟 [Buying the book](/10_shop_buy_the_book.py)<br>
+        🔟 [Buying the book](/10_shop_buy_the_book.py)&nbsp;&nbsp;&nbsp;&nbsp; [![Generic badge](https://img.shields.io/badge/code--coverage-100%25-green)](#)<br>
 
             1. Откройте http://practice.automationtesting.in/ # в этом тесте логиниться не нужно
             2. Нажмите на вкладку "Shop" и проскролльте на 300 пикселей вниз
