@@ -2,11 +2,11 @@
   <a href ="#"><img src="https://i.imgur.com/3Vg0Jfw.png" width="130" /></a>
 </p>
 
-# <p align="center">[<img src="https://i.imgur.com/G7LQsqu.png"  height="25" />](https://be-tester.ru/) HomeWork - Lesson 4 (Automation) :fire:<p>
+# <p align="center">[<img src="https://i.imgur.com/G7LQsqu.png"  height="25" />](https://be-tester.ru/ "https://be-tester.ru") HomeWork - Lesson 4 (Automation) :fire:<p>
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python%20&%20Magic-blue.svg)](https://www.python.org/)
 [![Generic badge](https://img.shields.io/badge/Total%20code--coverage-100%25-green)](#)
-  
+
 ### Description
 The Homework includes different Exercises which requires some knowlege and skills of Python.<br>
 There are three task sections: __Home__ - one task, __Registration & Login__ - two tasks, __Shop__ - seven tasks.<br><br>
@@ -186,8 +186,7 @@ These assignments were designed to improve a Test Automation mastery.<br>
             10. Используя явное ожидание, проверьте что в Payment Method отображается текст "Check Payments"
       </details>
   </details> 
-<br>
-
+<!-- ----------------------------------------------------------------------- -->
 [1]: /01_home_add_comment.py "Open File in New Tab (ctrl + click)"
 [2]: /02_registration_login_account_registration.py "Open File in New Tab (ctrl + click)"
 [3]: /03_registration_login_login_into_account.py "Open File in New Tab (ctrl + click)"
@@ -198,18 +197,18 @@ These assignments were designed to improve a Test Automation mastery.<br>
 [8]: /08_shop_check_price_in_the_cart.py "Open File in New Tab (ctrl + click)"
 [9]: /09_shop_work_with_cart.py "Open File in New Tab (ctrl + click)"
 [10]: /10_shop_buy_the_book.py "Open File in New Tab (ctrl + click)"
-
+<!-- ----------------------------------------------------------------------- -->
 
 ---
 ### Contributors
 
- - Maxim Mir
+ - **Maxim Mir**
 
  ---
 <details>
 <summary><b>:zap: GitHub Stats</b></summary>
     <img alt="MirMX's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=MirMX&exclude_repo=MirMX.github.io&show_icons=true&hide_border=false&title_color=ff652f&icon_color=FFE400&bg_color=09131B&text_color=ffffff&border_color=0c1a25" />
-</details><br>
+</details>
 
 ---  
-###### <p align = "center"><sup><b>:copyright: 2022 MirMX</b><sup><p>
+##### <p align = "center"><sup><b>:copyright: 2022 MirMX</b><sup><p>
