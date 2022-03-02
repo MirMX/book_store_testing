@@ -209,7 +209,7 @@ These assignments were designed to improve a Test Automation mastery.<br>
 
 <summary><b>:zap: GitHub Stats</b></summary>
 
-  ![MirMX's GitHub stats](https://github-readme-stats.vercel.app/api?username=MirMX&hide=contribs,prs&show_icons=true&&theme=dark&hide_border=false&title_color=007acc&icon_color=79ff97&bg_color=151515&border_color=0c1a25")
+  [![MirMX's GitHub stats](https://github-readme-stats.vercel.app/api?username=MirMX&hide=contribs,prs&show_icons=true&&theme=dark&hide_border=false&title_color=007acc&icon_color=79ff97&bg_color=151515&border_color=0c1a25")](#)
   
   [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=MirMX&repo=book_store_testing&theme=dark&&title_color=007acc&show_icons=true&layout=compact)](#)
 </details>
