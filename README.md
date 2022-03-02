@@ -2,7 +2,7 @@
   <a href ="#"><img src="https://i.imgur.com/3Vg0Jfw.png" width="130" /></a>
 </p>
 
-# <p align="center">[<img src="https://i.imgur.com/G7LQsqu.png"  height="25" />](https://be-tester.ru/ "https://be-tester.ru") HomeWork - Lesson 4 (Automation) :fire:<p>
+# <p align="center">[<img src="https://i.imgur.com/G7LQsqu.png"  height="25" />](https://be-tester.ru/ "https://be-tester.ru") HomeWork - Lesson 4 (Automation) :fire:</p>
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python%20&%20Magic-blue.svg)](https://www.python.org/)
 [![Generic badge](https://img.shields.io/badge/Total%20code--coverage-100%25-green)](#)
@@ -211,4 +211,5 @@ These assignments were designed to improve a Test Automation mastery.<br>
 </details>
 
 ---  
-<h6 align ="center"><a href ="#"><img align ="center" src="https://i.imgur.com/3Vg0Jfw.png" width="24" />&nbsp;&nbsp;</a>   © 2022 MirMX<h6>
+
+###### <p align ="center">[<img align ="center" src="https://i.imgur.com/3Vg0Jfw.png" width="24" />](#)&nbsp;&nbsp; © 2022 MirMX</p>
