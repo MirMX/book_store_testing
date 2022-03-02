@@ -211,4 +211,4 @@ These assignments were designed to improve a Test Automation mastery.<br>
 </details>
 
 ---  
-<p align = "center"><a href ="#"><img align ="center" src="https://i.imgur.com/3Vg0Jfw.png" width="24" /></a>&nbsp;&nbsp; <font size="-10">© 2022 MirMX</font><p>  
+<p align = "center"><a href ="#"><img align ="center" src="https://i.imgur.com/3Vg0Jfw.png" width="24" /></a>&nbsp;&nbsp;<span><sup vertical align ="middle" position ="">© 2022 MirMX<sup></span><p>  
