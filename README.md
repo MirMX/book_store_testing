@@ -6,7 +6,7 @@
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python%20&%20Magic-blue.svg)](https://www.python.org/)
 [![Generic badge](https://img.shields.io/badge/Total%20code--coverage-100%25-green)](#)
-[![Visitors](https://visitor-badge.glitch.me/badge?page_id=MirMX.book_store_testing&left_color=gray&right_color=red&left_text=Visitors)](#)
+
 ### Description
 The Homework includes different Exercises which requires some knowlege and skills of Python.<br>
 There are three task sections: __Home__ - one task, __Registration & Login__ - two tasks, __Shop__ - seven tasks.<br><br>
