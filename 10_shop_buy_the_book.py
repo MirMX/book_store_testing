@@ -32,7 +32,7 @@ driver.find_element(By.XPATH, "//a[@class='wpmenucart-contents']").click()
 # ---------------------------------------------------------------------------- #
 #                       5. Click on "PROCEED TO CHECKOUT"                      #
 # ---------------------------------------------------------------------------- #
-wait = WebDriverWait(driver, 90)
+wait = WebDriverWait(driver, 10)
 wait.until(EC.element_to_be_clickable(
     (By.XPATH, "//a[contains(@*, 'checkout')]"))).click()
 # ---------------------------------------------------------------------------- #
@@ -61,8 +61,9 @@ address_name.send_keys("30 Quadra St")
 city_name = driver.find_element(By.ID, "billing_city")
 city_name.send_keys("Victoria")
 
-province_selector = driver.find_element(By.ID, "select2-chosen-2").click()
-province_name = driver.find_element(By.ID, "s2id_autogen2_search")
+province_selector = driver.find_element(
+    By.XPATH, "//*[contains(text(), 'Select an option…')]").click()
+province_name = driver.find_element(By.CSS_SELECTOR, "#select2-drop input")
 province_name.send_keys("British")
 driver.find_element(By.CLASS_NAME, "select2-match").click()
 

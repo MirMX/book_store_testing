@@ -198,7 +198,69 @@ These assignments were designed to improve a Test Automation mastery.<br>
 [9]: /09_shop_work_with_cart.py "Open File in New Tab (ctrl + click)"
 [10]: /10_shop_buy_the_book.py "Open File in New Tab (ctrl + click)"
 <!-- ----------------------------------------------------------------------- -->
+---
+### **Framework**
+- <details>
+  <summary><b>Page Object Model</b></summary>
 
+    [<img src="https://i.imgur.com/nbaqwhv.png" />][11]
+  </details>
+- <details>
+  <summary><b>How to Use</b></summary>
+
+    - <details>
+      <summary><b>Soft Requirements:</b></summary>
+
+        - Python 3.8.5 
+        - Pytest 7.0.1 (to install use `pip install pytest` in terminal)
+        - Allure 2.17.3 (to install use `pip install allure-pytest` in terminal)
+
+      </details>
+    - <details>
+      <summary><b>to Run Tests:</b></summary>
+
+        
+        Framework ([framework][12]) <br>
+        execute code with command below in PowerShell
+        ```PowerShell
+        pytest -vs --alluredir=%allure_result_folder% ./Tests/<test_name.py>
+        ```
+        the key `-v` is to show more detailed report<br>
+        the key `-s` is to see print in terminal<br>
+
+        to generate allure report
+        ```
+        allure serve %allure_result_folder%
+        ```
+      </details>
+
+        - <details>
+          <summary><b>to chose which test to run:</b></summary>
+
+            Uncomment `@pytest.mark.skip` to skip test(s)<br>
+            [<img src="https://i.imgur.com/CeICYVo.gif" />][13]
+          </details>
+    - <details>
+      <summary><b>Results:</b></summary>
+
+        There are 16 tests and each of them has his own result bases on Task Requirements:<br>
+        [<img src="https://i.imgur.com/yVorhBC.png" />][14]
+        [<img src="https://i.imgur.com/0jxpx3N.png" />][15]
+        [<img src="https://i.imgur.com/MQkLh3p.png" />][16]
+        Allure Report:<br>
+        [<img src="https://i.imgur.com/SbK3oJd.png" />][17]
+      </details>
+  </details> 
+
+<!-- ----------------------------------------------------------------------- -->
+[11]: https://i.imgur.com/nbaqwhv.png "Open File in New Tab (ctrl + click)"
+[12]: /framework "Open File in New Tab (ctrl + click)"
+[13]: https://i.imgur.com/CeICYVo.gif "Open File in New Tab (ctrl + click)"
+[14]: https://i.imgur.com/yVorhBC.png "Open File in New Tab (ctrl + click)"
+[15]: https://i.imgur.com/0jxpx3N.png "Open File in New Tab (ctrl + click)"
+[16]: https://i.imgur.com/MQkLh3p.png "Open File in New Tab (ctrl + click)"
+[17]: https://i.imgur.com/SbK3oJd.png "Open File in New Tab (ctrl + click)"
+<!-- ----------------------------------------------------------------------- -->
 ---
 ### Contributors
 

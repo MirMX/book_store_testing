@@ -1,1 +1,8 @@
 __init__.py
+/reports/
+/.pytest_cache/
+/framework/Tests/__pycache__
+.idea
+/framework/Base/__pycache__
+/framework/Pages/__pycache__
+.vscode
